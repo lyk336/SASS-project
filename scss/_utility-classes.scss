@@ -1,0 +1,32 @@
+.secondary-info {
+  color: $secondary-color;
+  font-size: 0.875rem;
+  font-weight: 400;
+
+  &:has(img) {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  img {
+    max-width: 0.875rem;
+    max-height: 0.875rem;
+  }
+}
+.three-users {
+  display: flex;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+    border: 2px solid $white;
+
+    border-radius: 50%;
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+}

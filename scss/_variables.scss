@@ -1,0 +1,23 @@
+$primary-color: #000;
+$secondary-color: #b8b9bd;
+$white: #fff;
+$dark-gray: #7d8088;
+
+$side-bar-width: 17rem;
+
+$main-page-max-width: 65rem;
+
+$breakpoints: (
+  'lg': 70rem,
+  'xl': 90rem,
+);
+@mixin lg-screen {
+  @media (max-width: map-get($breakpoints, 'lg')) {
+    @content;
+  }
+}
+@mixin xl-screen {
+  @media (max-width: map-get($breakpoints, 'xl')) {
+    @content;
+  }
+}

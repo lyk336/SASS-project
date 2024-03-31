@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>SCSS project</title>
+  </head>
+  <body>
+    <aside class="dashboard">
+      <div class="dashboard__title-box">
+        <img src="assets/Lightning-white.svg" alt="" />
+        <h2 class="dashboard__title">Welcome Keerthi</h2>
+      </div>
+      <nav class="dashboard__nav">
+        <ul class="dashboard__menu">
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/Dashboard.svg" alt="" />
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/Settings.svg" alt="" />
+              <p>Settings</p>
+            </a>
+          </li>
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/Lightning-white.svg" alt="" />
+              <p>Activities</p>
+            </a>
+          </li>
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/Users-white.svg" alt="" />
+              <p>Users</p>
+            </a>
+          </li>
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/UserPlus.svg" alt="" />
+              <p>Added user</p>
+            </a>
+          </li>
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/Radioactive.svg" alt="" />
+              <p>Affiliate</p>
+            </a>
+          </li>
+        </ul>
+
+        <hr />
+
+        <ul class="dashboard__profile">
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/Lightning-white.svg" alt="" />
+              <p>Profile</p>
+            </a>
+          </li>
+          <li class="dashboard__item">
+            <a href="">
+              <img src="assets/Users-white.svg" alt="" />
+              <p>Logout</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="dashboard__new-project">
+        <img src="assets/Plus-white.svg" alt="+" />
+        <span>new project</span>
+      </button>
+    </aside>
+
+    <div class="header__container">
+      <header class="header">
+        <section class="header__section">
+          <div class="header__about">
+            <h1 class="header__name">New Campaign Run</h1>
+            <p class="header__description secondary-info">
+              A new campaign launch work for brand new featur in May month
+            </p>
+          </div>
+          <button class="header__add-members">add members</button>
+        </section>
+        <section class="header__section">
+          <div class="header__members">
+            <div class="header__users three-users">
+              <img src="assets/avatar.jpg" alt="" />
+              <img src="assets/avatar.jpg" alt="" />
+              <img src="assets/avatar.jpg" alt="" />
+            </div>
+            <p class="secondary-info">8 members</p>
+          </div>
+          <ul class="header__tools">
+            <li class="header__tool secondary-info">
+              <img src="assets/Users.svg" alt="" />
+              <p>Participants View</p>
+            </li>
+            <li class="header__tool secondary-info">
+              <img src="assets/Board.svg" alt="" />
+              <p>Board View</p>
+            </li>
+            <li class="header__tool secondary-info">
+              <img src="assets/List.svg" alt="" />
+              <p>List View</p>
+            </li>
+            <li class="header__tool secondary-info">
+              <img src="assets/Lightning.svg" alt="" />
+              <p>Power View</p>
+            </li>
+            <li class="header__tool secondary-info">
+              <img src="assets/Plus.svg" alt="" />
+            </li>
+          </ul>
+        </section>
+      </header>
+    </div>
+    <main class="tasks">
+      <section class="tasks__column">
+        <div class="tasks__progress">
+          <h2 class="tasks__progress-title">To Do</h2>
+          <span class="tasks__number">3</span>
+        </div>
+
+        <div class="tasks__task card">
+          <img src="assets/Card-Image1.jpg" alt="" class="card__thumbnail" />
+          <div class="card__about-container">
+            <div class="card__about">
+              <h3 class="card__title">Highfidelity Design</h3>
+              <p class="card__description secondary-info">Make clear design and color</p>
+            </div>
+            <div class="card__more">
+              <img src="assets/Three-dots.svg" alt="" />
+            </div>
+          </div>
+          <div class="card__progress-container">
+            <div class="card__progress">
+              <div class="secondary-info">
+                <img src="assets/Checklist.svg" alt="" />
+                <p>Progress</p>
+              </div>
+              <span>0/10</span>
+            </div>
+            <div class="card__progress-bar"></div>
+            <div class="card__info">
+              <div class="card__statistics">
+                <div class="card__comments secondary-info">
+                  <img src="assets/ChatTeardropDots.svg" alt="" />
+                  <span>7</span>
+                </div>
+                <div class="card__shared secondary-info">
+                  <img src="assets/LinkSimple.svg" alt="" />
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="three-users">
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tasks__task card">
+          <div class="card__about-container">
+            <div class="card__about">
+              <h3 class="card__title">Usability testing</h3>
+              <p class="card__description secondary-info">Make clear design and color</p>
+            </div>
+            <div class="card__more">
+              <img src="assets/Three-dots.svg" alt="" />
+            </div>
+          </div>
+          <div class="card__progress-container">
+            <div class="card__progress">
+              <div class="secondary-info">
+                <img src="assets/Checklist.svg" alt="" />
+                <p>Progress</p>
+              </div>
+              <span>0/10</span>
+            </div>
+            <div class="card__progress-bar"></div>
+            <div class="card__info">
+              <div class="card__statistics">
+                <div class="card__comments secondary-info">
+                  <img src="assets/ChatTeardropDots.svg" alt="" />
+                  <span>7</span>
+                </div>
+                <div class="card__shared secondary-info">
+                  <img src="assets/LinkSimple.svg" alt="" />
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="three-users">
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="tasks__add-task">
+          <img src="assets/Plus.svg" alt="" />
+          <span>Add Task</span>
+        </button>
+      </section>
+      <section class="tasks__column">
+        <div class="tasks__progress">
+          <h2 class="tasks__progress-title">Inprogress</h2>
+          <span class="tasks__number">1</span>
+        </div>
+
+        <div class="tasks__task card">
+          <img src="assets/Card-Image2.jpg" alt="" class="card__thumbnail" />
+          <div class="card__about-container">
+            <div class="card__about">
+              <h3 class="card__title">Highfidelity Design</h3>
+              <p class="card__description secondary-info">Make clear design and color</p>
+            </div>
+            <div class="card__more">
+              <img src="assets/Three-dots.svg" alt="" />
+            </div>
+          </div>
+          <div class="card__progress-container">
+            <div class="card__progress">
+              <div class="secondary-info">
+                <img src="assets/Checklist.svg" alt="" />
+                <p>Progress</p>
+              </div>
+              <span>0/10</span>
+            </div>
+            <div class="card__progress-bar"></div>
+            <div class="card__info">
+              <div class="card__statistics">
+                <div class="card__comments secondary-info">
+                  <img src="assets/ChatTeardropDots.svg" alt="" />
+                  <span>7</span>
+                </div>
+                <div class="card__shared secondary-info">
+                  <img src="assets/LinkSimple.svg" alt="" />
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="three-users">
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="tasks__add-task">
+          <img src="assets/Plus.svg" alt="" />
+          <span>Add Task</span>
+        </button>
+      </section>
+      <section class="tasks__column">
+        <div class="tasks__progress">
+          <h2 class="tasks__progress-title">Completed</h2>
+          <span class="tasks__number">2</span>
+        </div>
+
+        <div class="tasks__task card">
+          <div class="card__about-container">
+            <div class="card__about">
+              <h3 class="card__title">Usability testing</h3>
+              <p class="card__description secondary-info">Make clear design and color</p>
+            </div>
+            <div class="card__more">
+              <img src="assets/Three-dots.svg" alt="" />
+            </div>
+          </div>
+          <div class="card__progress-container">
+            <div class="card__progress">
+              <div class="secondary-info">
+                <img src="assets/Checklist.svg" alt="" />
+                <p>Progress</p>
+              </div>
+              <span>0/10</span>
+            </div>
+            <div class="card__progress-bar"></div>
+            <div class="card__info">
+              <div class="card__statistics">
+                <div class="card__comments secondary-info">
+                  <img src="assets/ChatTeardropDots.svg" alt="" />
+                  <span>7</span>
+                </div>
+                <div class="card__shared secondary-info">
+                  <img src="assets/LinkSimple.svg" alt="" />
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="three-users">
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tasks__task card">
+          <img src="assets/Card-Image3.jpg" alt="" class="card__thumbnail" />
+          <div class="card__about-container">
+            <div class="card__about">
+              <h3 class="card__title">Highfidelity Design</h3>
+              <p class="card__description secondary-info">Make clear design and color</p>
+            </div>
+            <div class="card__more">
+              <img src="assets/Three-dots.svg" alt="" />
+            </div>
+          </div>
+          <div class="card__progress-container">
+            <div class="card__progress">
+              <div class="secondary-info">
+                <img src="assets/Checklist.svg" alt="" />
+                <p>Progress</p>
+              </div>
+              <span>0/10</span>
+            </div>
+            <div class="card__progress-bar"></div>
+            <div class="card__info">
+              <div class="card__statistics">
+                <div class="card__comments secondary-info">
+                  <img src="assets/ChatTeardropDots.svg" alt="" />
+                  <span>7</span>
+                </div>
+                <div class="card__shared secondary-info">
+                  <img src="assets/LinkSimple.svg" alt="" />
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="three-users">
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+                <img src="assets/avatar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="tasks__add-task">
+          <img src="assets/Plus.svg" alt="" />
+          <span>Add Task</span>
+        </button>
+      </section>
+    </main>
+  </body>
+</html>

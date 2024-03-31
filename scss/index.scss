@@ -1,0 +1,34 @@
+/*===========================
+    map
+    0. resets and variables
+      0.1 utility classes
+    1. side board
+    2. main page
+    3. card
+  ===========================*/
+
+/*========================
+    resets and variables
+  ========================*/
+@import 'variables';
+@import 'resets';
+
+/*-------------------
+    utility classes
+  -------------------*/
+@import 'utility-classes';
+
+/*==============
+    side board
+  ==============*/
+@import 'components/side-menu';
+
+/*=============
+    main page
+  =============*/
+@import 'components/main-page';
+
+/*========
+    card
+  ========*/
+@import 'components/card';
